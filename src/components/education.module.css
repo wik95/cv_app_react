@@ -1,0 +1,28 @@
+.education {
+  font: 24px;
+  font-weight: bold;
+  color: white;
+  width: 50%;
+}
+
+.subtitle {
+  font-size: 36px;
+  font-weight: bold;
+  color: white;
+  @media (max-width: 1559px) {
+    font-size: 28px;
+  }
+}
+
+.schoolInf {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.school {
+  font-size: 24px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  color: lightblue;
+}

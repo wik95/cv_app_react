@@ -1,0 +1,59 @@
+.personal {
+  color: white;
+  height: 300px;
+  width: 100%;
+  padding-top: 20px;
+  @media (max-width: 1559px) {
+    height: 260px;
+  }
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.fullName {
+  display: flex;
+  gap: 0.5em;
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+}
+
+.title {
+  background-color: lightblue;
+  color: black;
+  font-weight: bold;
+  margin-top: 10px;
+  width: fit-content;
+  padding: 10px;
+  height: fit-content;
+  border-radius: 8px;
+  border: none;
+  font-size: 24px;
+}
+
+.image {
+  background-color: black;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: auto;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.textBox {
+  font-weight: bold;
+  @media (max-width: 1559px) {
+    font-size: 14px;
+  }
+}

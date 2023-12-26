@@ -1,0 +1,297 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+
+.app {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+button {
+  background-color: lightblue;
+  margin: 5px;
+  width: 100px;
+  height: 36px;
+  border-radius: 8px;
+  border: none;
+  font-size: 18px;
+}
+
+#clear {
+  width: 200px;
+}
+
+a,
+a:hover,
+a:active,
+a:visited {
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.title {
+  color: white;
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+input,
+textarea {
+  background-color: #292929;
+  border: none;
+  width: 100%;
+  height: 36px;
+  border-radius: 8px;
+  color: #fff;
+  font-family: inherit;
+  font-size: 100%;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.form-inline {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+#removeButton {
+  margin-bottom: -5px;
+  height: 50px;
+  width: 50px;
+}
+textarea {
+  height: 100px;
+}
+
+.preview {
+  min-height: 100vh;
+  width: 50vw;
+  background-color: black;
+}
+
+.outline {
+  background-color: #292929;
+  box-shadow: 0 5px 15px lightblue, 0 -5px 30px lightblue;
+  width: 90%;
+  border: black;
+  border-radius: 20px;
+  margin: 20px;
+  position: sticky;
+  top: 50px;
+}
+
+.svg {
+  width: 20px;
+  height: 20px;
+  margin-bottom: -2px;
+  margin-right: 5px;
+}
+
+.creator {
+  background-color: #292929;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: inherit;
+  padding: 10px;
+  margin-left: 5px;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(48, 47, 47);
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 25px;
+  margin-top: 50px;
+}
+
+.upper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 500px;
+}
+
+h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 28px;
+  margin-right: auto;
+}
+.lower {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+  font-size: 16px;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.personal {
+  background-color: rgb(48, 47, 47);
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 25px;
+  margin-top: 50px;
+}
+
+.nameholder {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 500px;
+}
+
+.submit {
+  margin-top: 20px;
+  margin-left: auto;
+}
+
+.idcard {
+  width: 30px;
+  height: 30px;
+  color: white;
+  margin-bottom: -5px;
+}
+
+.work {
+  background-color: rgb(48, 47, 47);
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 25px;
+  margin-top: 50px;
+}
+
+.workpic {
+  width: 30px;
+  height: 30px;
+  color: white;
+  margin-bottom: -5px;
+  margin-right: 5px;
+}
+
+.skills {
+  background-color: rgb(48, 47, 47);
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 25px;
+  margin-top: 50px;
+}
+
+.skillpic {
+  width: 30px;
+  height: 30px;
+  color: white;
+  margin-bottom: -5px;
+  margin-right: 5px;
+  object-fit: contain;
+}
+
+.education {
+  background-color: rgb(48, 47, 47);
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 25px;
+  margin-top: 50px;
+}
+
+.edupic {
+  width: 30px;
+  height: 30px;
+  color: white;
+  margin-bottom: -5px;
+}
+
+.contact {
+  background-color: rgb(48, 47, 47);
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding: 25px;
+  margin-top: 50px;
+}
+
+.secondrow {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  gap: 20px;
+}
+
+.contactpic {
+  width: 30px;
+  height: 30px;
+  margin-bottom: -5px;
+  margin-right: 5px;
+  object-fit: contain;
+}
+
+#file {
+  display: none;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  background-color: #292929;
+  border: none;
+  width: 100%;
+  height: 24px;
+  border-radius: 8px;
+  color: #fff;
+  font-family: inherit;
+  font-size: 100%;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+label:hover {
+  background-color: gray;
+  cursor: pointer;
+}
+
+.topRow,
+.bottomRow {
+  border-bottom: 2px solid white;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.middleRow,
+.contactRow {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bottomRow {
+  display: flex;
+}
+
+@media print {
+  .preview {
+    width: 100%;
+    overflow: hidden;
+    margin-left: 20px;
+  }
+}
