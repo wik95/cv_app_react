@@ -1,6 +1,6 @@
 <h1>CV APP REACT</h1>
 
-<p>Live preview: <a href="">CLICK HERE</a></p>
+<p>Live preview: <a href="https://wik95.github.io/cv_app_react/">CLICK HERE</a></p>
 <img src="cv_app.png" width="70%" />
 
 <p>The most advanced app I built so far along my journey on The Odin Project, using Vite+React.</p>
